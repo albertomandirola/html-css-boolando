@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.col-33{
+    width: calc(100% / 3);
+    border: 1px dashed black;
+    height: 75px;
+    
+}
+
+/* HEADER */
+
+header{
+    background-color: orange;
+    height: 75px;
+}
