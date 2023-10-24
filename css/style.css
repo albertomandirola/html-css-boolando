@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 /* COMMON */
 
 .container{
@@ -26,19 +30,38 @@
     width: 100%;
 }
 
-.height-30{
-    height: 30px;
-}
+
+/* FLEXBOXING AND POSITIONING */
 
 .d-flex{
     display: flex;
+    gap: 0 5px;
 }
 
 .j-center{
     justify-content: center;
 }
+
 .j-flex-end{
     justify-content: flex-end;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+.position-heart{
+    top: 20px;
+    right: 0;
+}
+
+.position-discount{
+    bottom: 20px;
+    left: 0;
 }
 /* HEADER */
 
@@ -47,6 +70,9 @@ header{
     
 }
 
+.height-30{
+    height: 30px;
+}
 /* MAIN */
 
 .product{
@@ -86,6 +112,48 @@ main img{
     color: white;
 }
 
+.fs-middle{
+    font-size: 25px;
+}
+
+.fc-red{
+    color: red;
+}
+
+.fs-small{
+    font-size: small;
+}
+
+.fs-large{
+    font-size: large;
+}
+.fw-600{
+    font-weight: 600;
+}
+
+
+
 .padding-y-20{
     padding: 20px 0;
+}
+
+.padding-20{
+    padding: 20px ;
+}
+
+.padding-discount{
+    padding: 5px 10px;
+}
+/* BACKGROUND */
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-red{
+    background-color: red;
 }
