@@ -17,8 +17,9 @@
 }
 
 .col-33{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 10px);
     border: 1px dashed black;
+    gap: 0 10px;
 }
 
 .content{
@@ -44,6 +45,16 @@
 header{
     background-color: rgb(255, 123, 0);
     
+}
+
+/* MAIN */
+
+.product{
+    width: 100%;
+}
+
+.info{
+
 }
 
 /* FONT DECORATION */
