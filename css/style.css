@@ -18,12 +18,13 @@ body{
 .row{
     width: 100%;
     display: flex;
-    gap: 20px 10px;
+    gap: 50px 10px;
     flex-wrap: wrap;
 }
 
 .col-33{
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 7px);
+    /* 7px e non 10px come da formula poiche dividendo è presente un resto  */
 }
 
 .content{
@@ -40,6 +41,10 @@ body{
 
 .j-center{
     justify-content: center;
+}
+
+.ai-center{
+    align-items: center;
 }
 
 .j-flex-end{
@@ -67,7 +72,7 @@ body{
 
 header{
     background-color: rgb(255, 123, 0);
-    
+    margin-bottom: 50px;
 }
 
 .height-30{
