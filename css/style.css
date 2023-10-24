@@ -14,12 +14,12 @@
 .row{
     width: 100%;
     display: flex;
+    gap: 20px 10px;
+    flex-wrap: wrap;
 }
 
 .col-33{
     width: calc(100% / 3 - 10px);
-    border: 1px dashed black;
-    gap: 0 10px;
 }
 
 .content{
@@ -54,9 +54,28 @@ header{
 }
 
 .info{
-
+    width: 100%;
 }
 
+main img{
+    width: 100%;
+}
+
+.show{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.product:hover .hidden{
+    display: block;
+}
+
+.product:hover .show{
+    display: none;
+}
 /* FONT DECORATION */
 
 .td-none{
